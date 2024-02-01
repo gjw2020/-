@@ -12,7 +12,7 @@ const CONFIG = {
   APP_SECRET: "248b671cae5e68e297ec8d1f1f960a07",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "oMGpqn6Tbag7TqFY4oX6b0sVKRdmHytNlGH8vckWbqk",
+  TEMPLATE_ID: "BBg6fvHaVaGLpEEhhJ0l5bvOFBz_HvDMqg3ck8NAo2g",
 
   // 天行API的key
   TXApiKey: "fb2c0a5478c5852f53e78c086b7159f3",
@@ -30,6 +30,17 @@ const CONFIG = {
       birthday: "04-01",
       // 城市 - 格式：支持省市县区
       city: "汤阴县",
+    },{
+      // 男(女)朋友的名字（或昵称或网名）
+      userName: "小郭",
+      // 用户列表的`微信号`
+      userId: "o0rXa6BpVpzcOuPCj5_J0WYqVj8E",
+      // 星座
+      star: "双鱼座",
+      // 生日 - 格式：08-22
+      birthday: "03-05",
+      // 城市 - 格式：支持省市县区
+      city: "建阳",
     },
   ],
 
@@ -51,17 +62,17 @@ const CONFIG = {
     // 星座运势
     star: true,
     // 土味情话
-    saylove: true,
+    saylove: false,
     // 健康小提示
-    healthtip: true,
+    healthtip: false,
     // 毒鸡汤
-    duJiTang: true,
+    duJiTang: false,
     // 早安心语
     zaoAn: true,
     // 晚安心语
     wanAn: false,
     // 彩虹屁
-    caiHongPi: true,
+    caiHongPi: false,
   },
 };
 
