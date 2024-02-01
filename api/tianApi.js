@@ -44,7 +44,7 @@ const getWeather = async (city) => {
  * @returns {Object}
  */
 const getStar = async (astro) => {
-  const url = "http://apis.tianapi.com/star/index";
+  const url = "http://api.tianapi.com/star/index";
   const params = {
     key: CONFIG.TXApiKey,
     astro,
@@ -53,7 +53,7 @@ const getStar = async (astro) => {
   const { data } = await axios.get(url, { params });
 
   if (data.code === 200) {
-    return data.result;
+    return data.newslist;
   }
   if (data.code === 250) {
     return "请检查星座星座信息是否正确";
